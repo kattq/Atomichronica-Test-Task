@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Gmail Test">
+    <test name="Gmail Test" parallel="none">
+        <classes>
+            <class name="Test.GmailTest">
+                <methods>
+                    <include name="GmailControl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
